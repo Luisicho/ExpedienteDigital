@@ -27,9 +27,19 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/aos/dist/aos.css",
+              "src/assets/bootstrap/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/assets/bootstrap/js/bootstrap.min.js",
+              "node_modules/jquery/dist/jquery.js",
+              "./src/assets/js/bs-init.js",
+              "./node_modules/aos/dist/aos.js",
+              "./node_modules/datatables.net/js/jquery.dataTables.js",
+              "./node_modules/datatables.net-dt/js/dataTables.dataTables.min.js",
+              "./src/assets/js/Dynamic-Table.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,6 +104,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/bootstrap/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []

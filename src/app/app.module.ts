@@ -1,16 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { LoginComponent } from './pages/login/login.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ForgetPassComponent } from './pages/forget-pass/forget-pass.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InicioComponent,
+    LoginComponent,
+    ForgetPassComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

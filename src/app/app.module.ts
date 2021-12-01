@@ -8,6 +8,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ForgetPassComponent } from './pages/forget-pass/forget-pass.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { RegistroComponent } from './pages/registro/registro.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
     InicioComponent,
     LoginComponent,
     ForgetPassComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
